@@ -1,218 +1,116 @@
-📊 Bank Loan Report – Power BI Dashboard
+# 💰 Bank Loan Report – Power BI Dashboard Project
 
-A comprehensive Power BI dashboard designed to analyze bank loan applications, funded amounts, customer profiles, repayment status, and overall loan performance.
+This repository contains an interactive **Power BI dashboard** designed to analyze bank loan applications, funded amounts, borrower demographics, and loan performance. The goal is to deliver clear financial insights through intuitive and visually engaging reports.
 
-📁 Project Overview
+---
 
-This project presents a multi-page Power BI dashboard that enables deep analysis of loan-related trends and KPIs.
-It helps stakeholders understand:
+## 📊 Project Overview
 
-Loan application volume
+This Power BI solution includes **three interactive dashboard pages**:
 
-Funded and received amounts
-
-Good vs bad loan distribution
-
-Borrower demographics
-
-Loan repayment status
-
-MTD & MOM performance metrics
-
-The dashboard contains three interactive pages:
-
-Summary
-
-Overview
-
-Details
-
-🎯 Objectives
-
-Identify loan volume and funding patterns
-
-Compare good vs bad loan performance
-
-Track borrower behavior and credit risk
-
-Analyze trends by state, purpose, employee length, and home ownership
-
-Provide actionable insights to improve lending strategy
-
-Monitor month-over-month (MOM) & month-to-date (MTD) indicators
-
-🔧 Tools & Technologies
-
-Power BI Desktop
-
-Power Query
-
-DAX (Data Analysis Expressions)
-
-Excel / CSV dataset
-
-Star Schema Data Modeling
-
-📊 Dashboard Pages
 ### 1. Summary Dashboard
 
-KPIs:
-
-Total Loan Applications
-
-Total Funded Amount
-
-Total Amount Received
-
-Average Interest Rate
-
-Average DTI
-
-Good Loan vs Bad Loan Distribution
-
-Loan Status Table (Fully Paid, Current, Charged Off)
-
-Key performance summaries
+* Total Loan Applications
+* Total Funded Amount
+* Total Amount Received
+* Average Interest Rate
+* Average DTI
+* Good vs Bad Loan Distribution
+* Loan Status Summary (Fully Paid, Current, Charged Off)
 
 ### 2. Overview Dashboard
 
-Total Funded Amount by Month
-
-Funded Amount by State (Map)
-
-Funded Amount by Loan Term
-
-Funded Amount by Employee Length
-
-Funded Amount by Purpose
-
-Funded Amount by Home Ownership
+* Total Funded Amount by Month
+* Funded Amount by State (Map View)
+* Funded Amount by Loan Term (36 vs 60 months)
+* Funded Amount by Employee Length
+* Funded Amount by Purpose
+* Funded Amount by Home Ownership
 
 ### 3. Details Dashboard
 
-A detailed, filterable table containing complete loan data:
+* Complete tabular dataset
+* Searchable and filterable data grid
+* Includes Loan ID, Purpose, Home Ownership, Grade, Sub-Grade, Interest Rate, Installment, Funded Amount, and Amount Received
 
-Loan ID
+---
 
-Purpose
+## 🛠️ Tools & Technologies Used
 
-Grade & Sub-grade
+### • Power BI Desktop
 
-Issue Date
+### • Power Query for ETL
 
-Funded Amount
+### • DAX (Data Analysis Expressions)
 
-Installment
+### • Data Modeling (Star Schema)
 
-Interest Rate
+### • Interactive filters, slicers, and bookmarks
 
-Amount Received
+---
 
-📚 Dataset Description
+## 🚀 Features
 
-The dataset includes:
+### • Fully interactive dashboards
 
-Loan ID
+### • Multi-level filtering with slicers
 
-Purpose of Loan
+### • Month-to-Date (MTD) and Month-over-Month (MOM) KPIs
 
-Home Ownership
+### • Good vs Bad Loan insights
 
-Employment Length
+### • Clean, consistent UI with color-coded metrics
 
-Loan Grade & Sub-grade
+### • Geographic, categorical, and temporal analysis
 
-Issue Date
+---
 
-Funded Amount
+## 🔍 Key Insights
 
-Installment
+### • December records the highest monthly funding
 
-Interest Rate
+### • Mortgage borrowers receive the highest funded amount
 
-DTI (Debt-to-Income)
+### • Debt consolidation is the most common loan purpose
 
-Amount Received
+### • 86.2% of loans are categorized as Good Loans
 
-Loan Status
+### • Lower interest rates and DTI values correlate with good loan performance
 
-🧮 Key DAX Measures
+### • Borrowers with 10+ years of employment receive the highest loan funding
 
-Total Loan Applications
+---
 
-Total Funded Amount
+## 🧮 Important DAX Measures
 
-Total Amount Received
+### • Total Loan Applications
 
-Average Interest Rate
+### • Total Funded Amount
 
-Average DTI
+### • Total Amount Received
 
-Good Loan Percentage
+### • Average Interest Rate
 
-Bad Loan Percentage
+### • Average DTI
 
-MTD Loan Metrics
+### • Good Loan % / Bad Loan %
 
-MOM Loan Metrics
+### • MTD & MOM calculations
 
-🎨 Design Highlights
+---
 
-Clean and modern color-coded KPIs
+## 📌 Note
 
-Interactive slicers for:
+All visualizations are based on a bank loan dataset used solely for **educational and analytical purposes**.
 
-State
+---
 
-Loan Grade
+## 📬 Contact
 
-Purpose
+For questions or collaboration:
 
-Good/Bad Loan
+### LinkedIn: [www.linkedin.com/in/biswarup-das-b36ab7340](http://www.linkedin.com/in/biswarup-das-b36ab7340)
 
-Measure Selection
+---
 
-Responsive layouts
-
-Consistent visual theme
-
-💡 Insights Generated
-
-December shows the highest funded amount (~$58M)
-
-Mortgage borrowers account for the highest funding
-
-Debt consolidation is the top loan purpose
-
-86.2% of all loans issued are good loans
-
-Most good loans have lower interest rates and DTIs
-
-10+ years employee length receives the highest funded amount
-
-🚀 How to Use
-
-Open the .pbix file in Power BI Desktop
-
-Navigate using the left-panel buttons
-
-Use slicers to filter data dynamically
-
-Hover to view detailed insights
-
-Export or publish through Power BI Service
-
-🏁 Conclusion
-
-This dashboard provides a full 360° view of bank loan performance and lending trends.
-It is useful for:
-
-Financial analysts
-
-Credit risk teams
-
-Banking decision-makers
-
-Business intelligence professionals
-
-It enables organizations to make data-driven lending decisions and optimize loan strategies.
+⭐ **If this project helped you, please star the repository!**
